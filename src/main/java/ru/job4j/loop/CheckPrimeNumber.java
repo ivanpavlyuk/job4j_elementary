@@ -1,7 +1,6 @@
 package ru.job4j.loop;
 
 public class CheckPrimeNumber {
-    //комментарий для формального изменения программы
     public static boolean check(int number) {
         boolean prime = number > 1;
         for (int i = 2; i < number; i++) {
